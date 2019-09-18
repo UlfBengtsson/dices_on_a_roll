@@ -18,6 +18,6 @@ public class Cup <Liquid> {
 
     public void showContent()
     {
-        Arrays.stream(internalList).forEach(System.out::println);
+        Arrays.stream(internalList).filter(e -> e != null).forEach(System.out::println);
     }
 }

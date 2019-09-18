@@ -13,7 +13,7 @@ public class App
     {
         //diceExample();
 
-        //genericCupsExample()
+        genericCupsExample();
 
         scan.close();
     }
